@@ -1,0 +1,19 @@
+body {
+    background-color: #EAF6F6;
+}
+
+hr {
+    /* background-color: #EAF6F6; */
+    /*has no height so no need for background-color*/
+    /* border-style: dotted none none;
+    border-top-style: dotted; */
+    /*very specific (will have higher priority*/
+    /* height: 1px; */
+    width: 5%;
+    border-top: 8px dotted #d9d9db;
+}
+
+h1,
+h3 {
+    color: #66BFBF;
+}
