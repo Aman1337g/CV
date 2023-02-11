@@ -1,19 +1,196 @@
 body {
-    background-color: #EAF6F6;
+    color: #1d2325;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 352%;
+    /* 100% = 16px = 1em => 90px = (100/16)*90% . Nowadays, we use rem = root em */
+    margin-top: 50px;
+    font-family: 'Sacremento', cursive;
+    color: #66BFBF;
+    width: 40%;
+    margin: 50px auto 0 auto;
+    /* line-height: 2; */
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    /*40px = (1/16)*40 rem*/
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
 }
 
 hr {
-    /* background-color: #EAF6F6; */
-    /*has no height so no need for background-color*/
-    /* border-style: dotted none none;
-    border-top-style: dotted; */
-    /*very specific (will have higher priority*/
-    /* height: 1px; */
     width: 5%;
-    border-top: 8px dotted #d9d9db;
+    /* border-style: dotted; */
+    border-top: 6px dotted #a0a0a0;
+    /* border-width: 0; */
+    margin: 100px auto;
 }
 
-h1,
-h3 {
-    color: #66BFBF;
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
 }
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 330px;
+    bottom: 340px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.chillies {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.computer {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 70px;
+}
+
+.middle-container {
+    margin: 100px 0;
+    background-color: white;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /* line-height: 2; */
+}
+
+.btn {
+    background: #0fc3ca;
+    background-image: -webkit-linear-gradient(top, #0fc3ca, #0ea2a8);
+    background-image: -moz-linear-gradient(top, #0fc3ca, #0ea2a8);
+    background-image: -ms-linear-gradient(top, #0fc3ca, #0ea2a8);
+    background-image: -o-linear-gradient(top, #0fc3ca, #0ea2a8);
+    background-image: linear-gradient(to bottom, #0fc3ca, #0ea2a8);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+a {
+    display: inline;
+    color: #0b6f79;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130%;
+
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    padding: 10px;
+    font-size: 0.75rem;
+    color: #EAF6F6;
+    padding: 20px 0 0;
+}
+
+/* 
+    Common Block Elements
+
+    - Paragraphs (<p>)
+    - Headers (<h1> through <h6>)
+    - Divisions (<div>)
+    - Lists and list items (<ol>, <ul>, and <li>)
+    - Forms (<form>)
+*/
+/* 
+    Common Inline Elements 
+
+    - Spans (<span>)
+    - Images (<img>)
+    - Anchors (<a>)
+*/
